@@ -941,7 +941,7 @@ article.blog-post:hover .featured-post a img {
 }
 
 article.blog-post .content-post {
-	padding: 5px 20px 5px;
+	padding: 10px 20px 10px;
 	position: relative;
 }
 
@@ -975,8 +975,6 @@ article.blog-post .content-post p {
     font-size: 14px;
     left: 21px;
     right: 25px;
-    position: absolute;
-    top: 93px;
 }
 
 article.blog-post .content-post .author-post {
