@@ -1,0 +1,26 @@
+<section class="flat-row flat-iconbox style1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 center">
+        <div class="flat-row-title center">
+          <h2>악마의 존재, 그리고 <br/>그것을 믿는 사람들에게</h2>
+          <p>
+            악마는 존재하는가. 만약 악마가 있다고 하여도 악마를 만났다는 것을 어떻게 증명할까. 당신들에게 기회를 주고 싶다. 악마를 만날 수 있는 기회를.
+            은총을 받을 수 있는 기회를.<br/><br/>
+          </p>
+          <p> 자. 그럼 당신들이 과련 은총을 받을 수 있는 사람들인지 간단한 시험을 치르도록 하지. 그럼 다음에서 기다리겠다.
+          </p>
+        </div><!-- /.flat-row-title -->
+        <%= image_tag '/image001.jpg' %>
+      </div><!-- /.col-md-12 -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</section><!-- /.flat-iconbox style1 -->
+
+<% content_for 'javascript_content' do %>
+<%= javascript_include_tag params[:controller] %>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtRmXKclfDp20TvfQnpgXSDPjut14x5wk&region=GB"></script>
+<script type="text/javascript">
+
+</script>
+<% end %>

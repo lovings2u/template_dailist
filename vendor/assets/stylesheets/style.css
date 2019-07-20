@@ -409,7 +409,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { font-size: 32px; line-height: 66px; }
-h2 { font-size: 30px; line-height: 24px; }
+h2 { font-size: 30px; line-height: 40px; }
 h3 { font-size: 24px; line-height: 24px; font-weight: 500; }
 h4 { font-size: 16px; line-height: 24px; }
 
@@ -896,7 +896,7 @@ h4 { font-size: 16px; line-height: 24px; }
 article.blog-post {
 	background-color: #ffffff;
 	box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.09);
-	min-height: 430px;
+	min-height: 150px;
 }
 
 article.blog-post .featured-post {
@@ -941,7 +941,7 @@ article.blog-post:hover .featured-post a img {
 }
 
 article.blog-post .content-post {
-	padding: 0 20px 5px;
+	padding: 5px 20px 5px;
 	position: relative;
 }
 
@@ -998,10 +998,10 @@ article.blog-post .content-post .author-post a:not(:hover) {
 
 /* Flat Subscribe
 -------------------------------------------------------------- */
-.flat-subscribe {
+/* .flat-subscribe {
 	background: url(asset-path("blog/bg-01.png")) top center no-repeat;
 	padding: 47px 0 56px;
-}
+} */
 
 .flat-subscribe .subscribe-text {
 	font-size: 16px;
