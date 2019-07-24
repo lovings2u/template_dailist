@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get '/posts/001' => 'home#show'
+  get '/posts/066' => 'home#show'
 
   resources :posts, only: [:show]
   root 'home#index'
