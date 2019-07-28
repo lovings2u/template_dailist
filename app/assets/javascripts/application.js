@@ -13,3 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+
+//= require easing
+//= require gmap3.min
+//= require parallax
+//= require owl.carousel
+//= require main

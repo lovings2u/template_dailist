@@ -1,6 +1,18 @@
 @import 'bootstrap';
 @import 'font-awesome';
 
+// for style
+@import "themify-icons";
+@import "elegant";
+@import "shortcodes";
+@import "animate.min";
+@import "owl.carousel";
+// end for style
+
+@import 'style';
+@import 'responsive';
+
+
 @font-face { font-family: 'KCC-eunyoung'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 .change-font {

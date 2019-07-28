@@ -60,21 +60,20 @@
             <div class="entry-post">
               <ul class="entry-meta">
                 <li class="topic">
-                  <a href="#" title="">Trending</a>
+                  <a href="<%= post_path(post) %>" title="">From <%= post.writer %></a>
                 </li>
                 <li class="date">
-                  <a href="#" title="">June 08, 2017</a>
+                  <a href="<%= post_path(post) %>" title=""><%= (Date.today - 2.years).strftime("%b %d, %Y") %></a>
                 </li>
               </ul>
               <h2 class="entry-title">
-                <a href="#" title="">
-                  For Summer, <br />
-                  Five Hot Destinations
+                <a href="<%= post_path(post) %>" title="">
+                  <%= post.title %>
                 </a>
               </h2>
             </div>
             <p>
-              Americans will likely travel more this summer than last, with Croatia, South Africa and Greece among the popular destinations.
+              <%= truncate(post.title, length: 20) %>
             </p>
           </div><!-- /.content-post -->
         </article><!-- /.blog-post -->
